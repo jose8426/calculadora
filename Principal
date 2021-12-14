@@ -27,25 +27,11 @@ int main(){
   case'/':
   printf("%.1lf / %1lf = %.lf\n", primernumero, segundonumero, primernumero / segundonumero);
   break;
-  default;
+  default:
   printf("Opreacion incorrecta");
+  
   }
   
   return 0;
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  return 0;
-}
-
-
-
