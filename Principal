@@ -21,7 +21,18 @@ int main(){
   printf("%.1lf - %.1lf = %.1lf\n",primernumero, segundonumero, primernumero - segundonumero);
   break;
   
+  case'*':
+  printf("%.1lf * %1lf = %.1lf\n", primernumero, segundonumero, primernumero * segundonumero);
   
+  case'/':
+  printf("%.1lf / %1lf = %.lf\n", primernumero, segundonumero, primernumero / segundonumero);
+  break;
+  default;
+  printf("Opreacion incorrecta");
+  }
+  
+  return 0;
+  }
   
   
   
