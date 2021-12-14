@@ -7,6 +7,19 @@ int main(){
   printf("Seleccione una operacion (+, -, *, /) : ");
   scanf("%c", &operacion);
   
+  print("Digite dos numeros: ");
+  scanf("%lf%lf", &primernumero, &segundonumero);
+  
+  switch(operacion)
+  {
+  
+  case'+':
+  printf("%.1lf + %.1lf = %.1lf\n",primernumero, segundonumero, primernumero + segundonumero);
+  break;
+  
+  case'-':
+  printf("%.1lf - %.1lf = %.1lf\n",primernumero, segundonumero, primernumero - segundonumero);
+  break;
   
   
   
