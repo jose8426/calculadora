@@ -8,23 +8,20 @@ int main(){
   scanf("%c", &operacion);
   
   
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
