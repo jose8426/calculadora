@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 int main(){
+  char operacion;
+  double primernumero, segundonumero;
 
+  printf("Seleccione una operacion (+, -, *, /) : ");
+  scanf("%c", &operacion);
+  
+  
 
 }
 
